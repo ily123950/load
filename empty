@@ -115,6 +115,8 @@ game.Players.LocalPlayer.Chatted:Connect(function(msg)
         game.Players:Chat(".unfreeze")
         game.Players:Chat(".house")
         game.Players:Chat("h \n \n \n \n \n \n i think server is laggy.")
+        elseif lowerMsg == ".vis" then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ily123950/orbit/main/broken"))()
     elseif lowerMsg == ".rc" then
         game.Players:Chat("h \n \n \n \n \n \n please join another server.")
         game.Players:Chat("respawn others")
